@@ -7,59 +7,51 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<form method="post">
+		<div >
+		 <lable for="name">Name*</lable>
+	    <input type="text"required id="name" >	
+	</div>
+		<div>
+		 <lable for="email">Email*</lable>
+	    <input type="email"id="email" required>	
+	</div>
+		<div>
+		 <lable>Gender*</lable>
+			 <lable>Male</lable>
+	    <input type="radio"value="male" name="ab"required>	
+			 <lable>Female</lable>
+			<input type="radio"value="female"name="ab"required>
+			 <lable>Other</lable>
+			<input type="radio"value="other"name="ab"required>
+	</div>
+		<div>
+			<label for="Laptop">Laptop Brands</label>
+	    <select id="Laptop">
+			<option>Apple</option>
+			<option>Asus</option>
+			<option>HP</option>
+		</select>
+	</div>
+		<div>
+		 <lable for="age">Age*</lable>
+	    <input type="number"id="age" required>	
+	</div>
+		<div>
+		 <lable for="dob">DOB*</lable>
+	    <input type="date"id="dob" required>	
+	</div>
+		<div>
+		 <lable for="password">Password*</lable>
+	    <input type="password"id="password" required>	
+	</div>
+		<input type="url"id="portfolio">
+		<button type="submit">submit</button>
+<!-- 	    <input type="submit"value="submit">	 -->
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
-<form action="">
-	<div>
-		<label for ="name">Name* </label>
-		<input type="text" required id="name">
-		
-	</div>
-	<div>
-		<label for ="email">Email*</label>
-		<input type ="email"mail" required id ="Email">
-	</div>
-	<div>
-		<label >Gender*</label>
-		<label >Male</label>
-		<input type ="radio"  name ="gender" value ="M">
-		<label >Female</label>
-		<input type="radio"  name ="gender" value="F">
-		
-		
-	</div>
-	<div>
-		<label for="laptop">Laptop Brands</label>
-		
-		<select id ="laptop">
-			<option value ="Apple">Apple</option>
-			<option value="Asus">Asus</option>
-			<option value ="HP">HP</option>
-			
-		</select>
-	
-	</div>
-	<div>
-		<label for ="age">Age*</label>
-		<input type="text" id="age">
-	</div>
-	<div>
-		<label for ="dob">DOB*</label>
-		<input type="date" id ="dob" name ="dob">
-	</div>
-	
-	<div>
-		<label for ="password">Password*</label>
-		<input type="password" id ="password">
 
-	</div>
-	<div>
-		<input type="url" placeholder="URL">
-		<button type="submit" form="nameform" value="Submit">Submit</button>
-
-	</div>
-</form>
 </body>
 
 </html>
